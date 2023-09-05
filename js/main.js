@@ -2,7 +2,7 @@
         function MudaDesenho(){
             const texto = document.querySelector("h1");
             const texto2 = document.querySelector("h2");
-            const imagem = document.querySelector("img");
+            const imagem = document.querySelector(".img2");
             const valor = document.querySelector('#valor').value;
             
             if(valor=="gemeos"){
@@ -80,7 +80,7 @@
                 texto2.innerHTML = "Aiolos de Sagitário é o Cavaleiro de Ouro de Sagitário do século XX. Antes de morrer, há 13 anos, entregou Atena ainda bebê e sua Armadura de Ouro aos cuidados de Mitsumasa Kido, que estava viajando pela Grécia. Desde então, Aiolos passou a ser considerado um traidor no Santuário, que era comandado por Saga disfarçado de Grande Mestre. Mesmo morto, sua alma continua a controlar sua Armadura de Sagitário, sempre ajudando, nos momentos críticos – emprestou-a a Seiya durante a luta contra Poseidon, por exemplo.";
             }
             else{
-                texto.innerHTML = "Cavaleiro não encontrado... =(";
+                texto.innerHTML = "Cavaleiro não encontrado... :(";
                 imagem.setAttribute("src","img/sad.gif");
                 imagem.setAttribute("width","700px");
             }

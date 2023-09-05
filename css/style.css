@@ -19,7 +19,7 @@
 body{
     border: double 15px;
     background-attachment: fixed;
-      color: rgb(230, 230, 36);
+      color: rgb(25, 0, 254);
       font-family: ITC Machine;
       font-size: 45px;
     }
@@ -82,3 +82,4 @@ h2{
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(146, 119, 30);
 }
+
